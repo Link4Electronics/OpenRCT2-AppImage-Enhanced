@@ -10,7 +10,7 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=https://github.com/OpenRCT2/OpenRCT2/raw/refs/heads/develop/resources/logo/icon_flag.svg
 export DESKTOP=/usr/share/applications/io.openrct2.openrct2.desktop
-export STARTUPWMCLASS=
+export STARTUPWMCLASS=openrct2
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
